@@ -15,7 +15,7 @@
   <thead>
   <th>id</th>
   <th>username</th>
-  <th> age</th>
+  <th>age</th>
   </thead>
   <tbody>
 
