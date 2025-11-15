@@ -13,6 +13,7 @@ import java.io.IOException;
 
 public class MemberSaveFormControllerV2 implements ControllerV2 {
     private MemberRepository memberRepository = MemberRepository.getInstance();
+
     @Override
     public Myview process(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");
